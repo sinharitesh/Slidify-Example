@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sentiment Analysis of US Leaders</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Sentiment Analysis of US Leaders">
+  <meta name="author" content="Ritesh Sinha">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Sentiment Analysis of US Leaders</h1>
+    <h2>Using Twitter Stream to determine effectiveness of US Leaders</h2>
+    <p>Ritesh Sinha<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Sentiment Data Analysis of US Leaders</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>For US elections 2016, There is lot of buzz.</li>
+<li>This looks a close race this time, with uncertainty as who will win this time.</li>
+<li>Mining social media can give a insight to leader&#39;s popularity.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Using Shiny App to distribute</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Having the analysis is one thing, but showing this to masses is another.</li>
+<li>This could become a herculean task, if we want to show on a web platform.</li>
+<li>Potentially this could lead to lot of learning and time.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>R Ecosystem to the rescue</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Thankfully, there is R and there is R Studio.</li>
+<li>Even better, we have shiny to do a number of things.</li>
+<li>The application can be coded in R, and it can published on web for further usage.</li>
+<li>It can be an interactive user interface, where user can chose Leader name.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Details of the application</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>A simple user interface.</li>
+<li>Selection panel contains Leader list in a dropdown.</li>
+<li>Check boxes provide type of sentiments - Positive, Negative and Neutral</li>
+<li>A list of dates which user can chose.</li>
+<li>Based on above three selection, the map is shown to the user with data points in Red, Green and Yellow.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>About the data</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>This app uses 6799 rows of Data from Twitter for analysis.</li>
+<li>It has got 16 leaders.</li>
+<li>These leaders belong to Democratic and Republican party.</li>
+<li>The url of the app is : <a href="https://hnhenk10.shinyapps.io/developing-data-product-shiny">https://hnhenk10.shinyapps.io/developing-data-product-shiny</a></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Sentiment Data Analysis of US Leaders'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Using Shiny App to distribute'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='R Ecosystem to the rescue'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Details of the application'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='About the data'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
